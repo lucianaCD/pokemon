@@ -1,0 +1,75 @@
+$font-color: #555555;
+
+body, html, #app, .app {
+  padding: 0;
+  margin: 0;
+  background-color: #e6e6e6;
+  text-align: center;
+}
+h1 {
+  font-size: 10em;
+  margin-top: 0;
+}
+.logo {
+  margin-top: 5px;
+}
+.navBar {
+  padding: 5px;
+  background-color: #5ca08e;
+}
+
+.navbar-item a{
+    color: #FFF;
+    font-size: 17px;
+}
+.photo img {
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 5px;
+  width: 100px;
+}
+
+div.page {
+    display: flex;
+    justify-content: center;
+    margin: 15px 15px;
+    width: 100%;
+}
+
+div.about {
+    padding: 25px;
+    margin: 5;
+}
+
+div.notification {
+    background-color: #B4D6C1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+div.error-notification {
+    background-color: #FA8072;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+input.filter{
+    display: flex;
+    padding: 4px 13px;
+    margin: 15px;
+}
+div.column-extra {
+    justify-content: center;
+}
+
+div.column-extra-item {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 5px 20px;
+    margin: 5px;
+}
+.c-extra-title{
+    font-weight: bold;
+}
